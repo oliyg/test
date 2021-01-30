@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "utils",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "oliyg <billyangg@qq.com>",
+  "homepage": "https://github.com/oliyg/test#readme",
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "import": "./dist/bundle.esm.mjs",
+      "require": "./dist/bundle.cjs.cjs"
+    }
+  },
+  "directories": {
+    "dist": "dist",
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "dist",
+    "__tests__"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliyg/test.git"
+  },
+  "scripts": {
+    "build": "node rollup.config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/oliyg/test/issues"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.1.1",
+    "rollup": "^2.38.1",
+    "typescript": "^4.1.3"
+  }
+}
