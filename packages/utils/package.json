@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
-  "name": "utils",
-  "version": "0.0.0",
+  "name": "@oliyg/utils",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "oliyg <billyangg@qq.com>",
   "homepage": "https://github.com/oliyg/test#readme",
@@ -23,7 +23,7 @@
     "__tests__"
   ],
   "publishConfig": {
-    "registry": "https://npm.org/"
+    "registry": "https://npmjs.com/"
   },
   "repository": {
     "type": "git",
