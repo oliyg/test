@@ -9,7 +9,7 @@
   "exports": {
     ".": {
       "import": "./dist/bundle.esm.mjs",
-      "require": "./dist/bundle.cjs.cjs"
+      "require": "./dist/bundle.umd.js"
     }
   },
   "directories": {

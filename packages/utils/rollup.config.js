@@ -8,7 +8,7 @@ const inputOptions = {
 
 const outputOpts = {
   esm: { file: "dist/bundle.esm.mjs", format: "esm" },
-  umd: { file: "dist/bundle.cjs.cjs", format: "cjs" },
+  umd: { file: "dist/bundle.umd.js", format: "umd", name: "utils" },
 };
 
 const build = async () => {
