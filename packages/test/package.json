@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "oliyg <billyangg@qq.com>",
+  "homepage": "https://github.com/oliyg/test#readme",
+  "license": "ISC",
+  "main": "lib/test.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliyg/test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "nodemon lib/test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/oliyg/test/issues"
+  },
+  "devDependencies": {
+    "got": "^11.8.2",
+    "nodemon": "^2.0.7"
+  }
+}
