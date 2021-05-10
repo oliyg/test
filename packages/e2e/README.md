@@ -1,11 +1,11 @@
-# `utils`
+# `e2e`
 
 > TODO: description
 
 ## Usage
 
 ```
-const utils = require('utils');
+const e2E = require('e2e');
 
 // TODO: DEMONSTRATE API
 ```
